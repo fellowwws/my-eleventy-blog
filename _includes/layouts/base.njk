@@ -38,9 +38,7 @@
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-      <div class="container-lg">
-        {{ content | safe }}
-      </div>
+      {{ content | safe }}
     </main>
 
     <footer></footer>
