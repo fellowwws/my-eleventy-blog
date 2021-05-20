@@ -16,7 +16,10 @@
         <div class="container-lg">
           <a class="navbar-brand" href="{{ '/' | url }}">{{ metadata.title }}</a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -35,7 +38,9 @@
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-      {{ content | safe }}
+      <div class="container-lg">
+        {{ content | safe }}
+      </div>
     </main>
 
     <footer></footer>
