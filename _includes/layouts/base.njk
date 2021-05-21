@@ -37,7 +37,7 @@
       </nav>
     </header>
 
-    <main{% if templateClass %} class="{{ templateClass }} container-md"{% endif %}>
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
 
