@@ -4,11 +4,27 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-{% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+<div class="container-md">
+  <div class="row">
+    <div class="col-md-7 col-lg-8">
+      <h1>Main content</h1>
+      <p class="lead">
+        This is a lead paragraph. It stands out from regular paragraphs.
+      </p>
+      <h2>Secondary heading</h2>
+    </div>
+    <div class="col bg-light">
+      <div class="py-2">
+        {% set maxPosts = collections.posts.length | min(3) %}
+        <h3>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h3>
 
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+        {% set postslist = collections.posts | head(-3) %}
+        {% set postslistCounter = collections.posts | length %}
+        {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+        <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
