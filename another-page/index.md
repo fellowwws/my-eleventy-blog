@@ -6,5 +6,3 @@ eleventyNavigation:
   key: Another Page
   order: 4
 ---
-
-## 🚧 This page is under construction. 🚧
