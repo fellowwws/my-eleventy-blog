@@ -15,19 +15,19 @@ eleventyNavigation:
         <div class="row">
           <div class="col-md-6 py-1">
             <label for="forename" class="form-label">First name</label>
-            <input type="text" class="form-control" id="forename" required>
+            <input type="text" class="form-control" name="forename" id="forename" required>
           </div>
           <div class="col-md-6 py-1">
             <label for="surname" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="surname">
+            <input type="text" class="form-control" name="surname" id="surname">
           </div>
           <div class="col-12 py-1">
             <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="example@you.com" required>
+            <input type="email" class="form-control" name="email" id="email" placeholder="example@you.com" required>
           </div>
           <div class="col-12 py-1">
             <label for="message" class="form-label">Your message</label>
-            <textarea rows="5" class="form-control" id="message" placeholder="">
+            <textarea rows="5" class="form-control" name="message" id="message">
             </textarea>
           </div>
           <div class="d-flex flex-column py-2">
