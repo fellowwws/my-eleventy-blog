@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
-title: This is my first post using Netlify CMS
-date: 2021-06-03T10:48:48.385Z
+title: My first time using Netlify CMS! 🥳
+date: 2021-06-03T11:00:44.866Z
 thumbnail: https://pbs.twimg.com/profile_images/872125924409528322/YIgPht1s.jpg
 tags: blog
 ---
