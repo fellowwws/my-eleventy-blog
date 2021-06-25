@@ -13,7 +13,7 @@ eleventyNavigation:
     <a href="https://github.com/fellowwws">Find me on GitHub</a>
   </div>
   <div class="col">
-    <h2>Hello, World! 👋 🌎</h2>
+    <h2>Hello, World! 👋🌎</h2>
     <p class="lead">
       My name is Paul, and I am a self-taught (hobbyist) software developer, currently living in Huddersfield, West Yorkshire.
     </p>
