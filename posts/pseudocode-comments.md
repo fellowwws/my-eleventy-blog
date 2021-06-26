@@ -4,13 +4,13 @@ title: "Pseudocode & Comments "
 date: 2021-06-10T22:55:47.346Z
 tags: blog
 ---
-This lesson was all about pseudocode and the importance commenting your code.
+This lesson was all about pseudocode and the importance of commenting your code.
 
 Comments are like breadcrumbs for other developers (or yourself). They help point the way and explain what you were thinking when you originally authored the code. 
 
 Pseudocode is used to describe the business logic of a program or algorithm. Pseudocode isn’t a programming language and should read more like human language.
 
-Topic covered in this lesson included:
+Topics covered in this lesson included:
 
 * Comments and why we use them
 * Pseudocode
