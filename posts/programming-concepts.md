@@ -14,4 +14,4 @@ This lesson introduced programming concepts such as: 
 
 The task for this lesson was to create a programme that calculated the tip percentage of a restaurant bill.
 
-I created the following \[pen](<https://codepen.io/fellowwws/pen/eYvMmRY>) on [codepen.io](http://codepen.io) to demonstrate what I had learned.
+I created the following [pen](https://codepen.io/fellowwws/pen/eYvMmRY) on [codepen.io](http://codepen.io) to demonstrate what I had learned.
