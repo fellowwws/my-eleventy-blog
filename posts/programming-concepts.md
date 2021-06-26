@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: "Programming Concepts "
-date: 2021-06-05T20:05:17.200Z
+date: 2021-05-31T17:10:17.200Z
 tags: blog
 ---
 This lesson introduced programming concepts such as: 
