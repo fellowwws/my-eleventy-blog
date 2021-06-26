@@ -4,9 +4,9 @@ title: Functions and Control Flow
 date: 2021-06-05T16:10:06.313Z
 tags: blog
 ---
-This lesson was all about two very important building blocks of any computer program: functions and control flow.
+This lesson introduced two very important building blocks of any computer program: functions and control flow.
 
-Topic covered in this lesson included:
+Topics covered in this lesson included:
 
 * Functions
 * Arguments vs parameters
