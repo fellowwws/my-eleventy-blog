@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Functions and Control Flow
-date: 2021-06-05T22:36:06.313Z
+date: 2021-06-05T16:10:06.313Z
 tags: blog
 ---
 This lesson was all about two very important building blocks of any computer program: functions and control flow.
